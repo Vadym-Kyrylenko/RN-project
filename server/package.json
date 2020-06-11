@@ -1,0 +1,43 @@
+{
+  "name": "kyrylenkoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.kharkov.dbbest.com/reactnative-students/kyrylenkoproject.git"
+  },
+  "author": "Vadym Kyrylenko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.21",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.11"
+  }
+}
